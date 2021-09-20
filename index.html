@@ -17,11 +17,151 @@
 			content="width=device-width, initial-scale=1.0"
 		/>
 		<title>Document</title>
+		<link rel="stylesheet" href="style.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+		/>
 
+		<!-- Compiled and minified JavaScript -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+		<link rel="stylesheet" href="style.css" />
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	</head>
 
 	<body>
-		<script src="index.js"></script>
+		<nav>
+			<div class="nav-wrapper blue">
+				<a href="#!" class="brand-logo">@Kade-Session</a>
+				<a
+					href="#"
+					data-target="mobile-demo"
+					class="sidenav-trigger"
+					><i class="material-icons">menu</i></a
+				>
+				<ul class="right hide-on-med-and-down">
+					<li><a href="sass.html">Sass</a></li>
+					<li><a href="badges.html">Components</a></li>
+					<li><a href="collapsible.html">Javascript</a></li>
+					<li><a href="mobile.html">Mobile</a></li>
+				</ul>
+			</div>
+		</nav>
+		<ul class="sidenav" id="mobile-demo">
+			<li><a href="sass.html">Sass</a></li>
+			<li><a href="badges.html">Components</a></li>
+			<li><a href="collapsible.html">Javascript</a></li>
+			<li><a href="mobile.html">Mobile</a></li>
+		</ul>
+		<header>
+			<div class="hero">
+				<h1 class="kade">Kade Session</h1>
+				<p id="HeadLine">
+					On The Road to becoming a junior software
+					developer
+				</p>
+			</div>
+			<div></div>
+		</header>
+		<div class="main">
+			<section>
+				<h1>About <span class="kade">Kade</span></h1>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing
+					elit. Ab amet quas deserunt optio eum perferendis
+					reiciendis, quia repudiandae qui odit ad fugit
+					autem iure inventore nulla hic minima at labore!
+				</p>
+			</section>
+			<section id="stuff">
+				<h1>Stuff</h1>
+				<div>
+					<div class="box" style="font-size: 25px">0</div>
+					<button class="btn">click</button>
+				</div>
+				<div>
+					<div class="box1">
+						<div class="screen">
+							<div value="" class="inner-screen"></div>
+						</div>
+						<div class="btn-box">
+							<div class="math">
+								<button value="+" class="add">+</button>
+								<button value="-" class="sub">-</button>
+								<button value="/" class="div">/</button>
+								<button value="*" class="multiply">
+									*
+								</button>
+							</div>
+							<div class="numbers">
+								<button id="1" value="0">0</button>
+								<button id="2" value="1">1</button>
+								<button id="3" value="2">2</button>
+								<button id="4" value="3">3</button>
+								<button id="5" value="4">4</button>
+								<button id="6" value="5">5</button>
+								<button id="7" value="6">6</button>
+								<button id="8" value="7">7</button>
+								<button id="9" value="8">8</button>
+								<button id="10" value="9">9</button>
+								<button class="clear">c</button>
+								<button class="equals">=</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<footer class="page-footer blue lighten-2">
+			<div class="container">
+				<div class="row">
+					<div class="col l6 s12">
+						<h5 class="white-text">Footer Content</h5>
+						<p class="grey-text text-lighten-4">
+							Here is Some more information about Kade
+						</p>
+					</div>
+					<div class="col l4 offset-l2 s12">
+						<h5 class="white-text">Links</h5>
+						<ul>
+							<li>
+								<a
+									class="grey-text text-lighten-3"
+									href="#!"
+									>Github</a
+								>
+							</li>
+							<li>
+								<a
+									class="grey-text text-lighten-3"
+									href="#!"
+									>Instagram</a
+								>
+							</li>
+							<li>
+								<a
+									class="grey-text text-lighten-3"
+									href="#!"
+									>Facebook</a
+								>
+							</li>
+							<li>
+								<a
+									class="grey-text text-lighten-3"
+									href="#!"
+									>Twitter</a
+								>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="footer-copyright">
+				<div class="container">
+					Kade Session © 2021 Copyright Text
+				</div>
+			</div>
+		</footer>
+		<script src="script.js"></script>
 	</body>
 </html>
