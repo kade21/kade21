@@ -2,7 +2,7 @@ $(document).ready(function () {
 	$('body').append(`
 		<header class="head"></header>
 		<div class="body"></div>
-		<div class="bottom"></div>
+		<footer class="footer"></footer>
 	`);
 
 	$('.head').append(`
@@ -20,4 +20,6 @@ $(document).ready(function () {
 			</div>
 		</nav>
 	`);
+	
+	$('.footer').append()
 });
